@@ -1,0 +1,15 @@
+{
+  "$schema": "https://aka.ms/azure-dev/static-web-apps-cli/schema",
+  "configurations": {
+    "froch-web": {
+      "appLocation": ".",
+      "apiLocation": "api",
+      "outputLocation": ".",
+      "skipAppBuild": true,
+      "appBuildCommand": "",
+      "apiBuildCommand": "npm install",
+      "run": "npm start",
+      "appDevserverUrl": "http://localhost:4280"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+# Node
+node_modules/
+api/node_modules/
+
+# Azure Functions local settings
+api/local.settings.json
+
+# Environment files
+.env
+.env.dev
+.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker (legacy)
+docker/
+docker-compose*.yml
+.dockerignore
+README_DOCKER.md
+
+# PHP (converted to static HTML)
+*.php

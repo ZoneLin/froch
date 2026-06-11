@@ -1,0 +1,12 @@
+{
+  "name": "froch-survey-api",
+  "version": "1.0.0",
+  "description": "Azure Functions API for FROCH survey - Azure Static Web Apps",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/data-tables": "^13.2.2",
+    "uuid": "^9.0.0"
+  }
+}

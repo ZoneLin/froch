@@ -1,0 +1,37 @@
+{
+  "routes": [
+    {
+      "route": "/api/*",
+      "allowedRoles": ["anonymous"]
+    },
+    {
+      "route": "/Survey/Pipe.html",
+      "allowedRoles": ["anonymous"]
+    },
+    {
+      "route": "/Survey/Finish.html",
+      "allowedRoles": ["anonymous"]
+    },
+    {
+      "route": "/Survey/Resubmit.html",
+      "allowedRoles": ["anonymous"]
+    },
+    {
+      "route": "/Survey/Unknow.html",
+      "allowedRoles": ["anonymous"]
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/api/*", "/Image/*", "/Survey/*", "/TCHI/*", "/ENG/*", "/SCHI/*", "/File/*"]
+  },
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Content-Security-Policy": "default-src 'self' https://*.froch.com https://*.froch.com.tw; style-src 'self' 'unsafe-inline'; img-src 'self' data:; script-src 'self' 'unsafe-inline'",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "platform": {
+    "apiRuntime": "node:18"
+  }
+}
