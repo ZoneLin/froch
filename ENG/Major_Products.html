@@ -1,14 +1,7 @@
+
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="keywords" content="stainless,steel,pipe,plate,coil,sheet,tube,taiwan,asia,manufacturer,oem,froch,JAUNG YUANN">
-<meta name="description" content="manufacturer of stainless steel pipe,tube,sheet and coil,ISO-9001 company">
-<meta name="author" content="Hark Tsai">
-<meta name="rating" content="general">
-<meta name="robots" content="all">
-<title>FROCH Stainless | Stainless Steel Pipes, Tubes, Sheets, and Coils.</title>
-<link rel="shortcut icon" href="../Image/Froch01.ico">
-<link rel="stylesheet" type="text/css" href="Top.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="keywords" content="stainless,steel,pipe,plate,coil,sheet,tube,taiwan,asia,manufacturer,oem,froch,JAUNG YUANN"><meta name="description" content="manufacturer of stainless steel pipe,tube,sheet and coil,ISO-9001 company"><meta name="author" content="Hark Tsai"><meta name="rating" content="general"><meta name="robots" content="all"><title>FROCH Stainless | Stainless Steel Pipes, Tubes, Sheets, and Coils.</title><link rel="shortcut icon" href="../Image/Froch01.ico"><link rel="stylesheet" type="text/css" href="Top.css">
 
 <Style Type="text/css">
 .Major_Products_TD01{
@@ -48,7 +41,7 @@ Background-Image:URL("../Image/Major_Products/ENG/Button01.jpg");
 
 Border-Width:0px;
 
-Cursor: Pointer;
+Cursor: Pointer; 
 }
 .Major_Products_Input_Submit02{
 Width:300px;
@@ -67,390 +60,46 @@ Background-Image:URL("../Image/Major_Products/ENG/Button02.jpg");
 
 Border-Width:0px;
 
-Cursor: Pointer;
+Cursor: Pointer; 
 }
 </Style>
 
 <script language="JavaScript" type="text/javascript">
-function Major_Products_ShowProduct(productId){
-   var ids=["Major_Products_Product17","Major_Products_Product15","Major_Products_Product18","Major_Products_Product20","Major_Products_Product25","Major_Products_Product21","Major_Products_Product19","Major_Products_Product24","Major_Products_Product23","Major_Products_Product16","Major_Products_Product22"];
-   for(var i=0;i<ids.length;i++){
-      var div=document.getElementById(ids[i]+"_content");
-      var btn=document.getElementById(ids[i]);
-      if(div){
-         if(ids[i]==productId){
-            div.style.display="";
-            btn.className="Top_Font01 Major_Products_Input_Submit02";
-         }else{
-            div.style.display="none";
-            btn.className="Top_Font01 Major_Products_Input_Submit01";
-         }
-      }
-   }
-   var defaultDiv=document.getElementById("Major_Products_Default_content");
-   if(defaultDiv){
-      if(productId==""){
-         defaultDiv.style.display="";
-      }else{
-         defaultDiv.style.display="none";
-      }
-   }
-}
-
+<!--
 function Major_Products_SetBGImage(name,filename){
-   var btn=document.getElementById(name);
-   if(btn.className.indexOf("Major_Products_Input_Submit02")==-1){
-      btn.style.backgroundImage="URL('"+filename+"')";
+   if(name!=document.Major_Products_ProductForm.Major_Products_ProductID.value)
+   {
+      filename="URL('" + filename + "')";
+      document.getElementById(name).style.backgroundImage=filename;
    }
 }
+//-->
 </script>
 </head>
 
-<BODY TopMargin=0 LeftMargin=0 BGColor="#FFFFFF">
-<Center>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=500><Img Src="../Image/Froch02.jpg">
-<TD Align="Left" Width=300>
-</TR>
-</Table>
-
-<Table Border=0 CellSpacing=0 CellPadding=0 Class="Top_Width02">
-<TR VAlign="Top">
-<TD Align="Left">&nbsp
-<TD Align="Left" Width=80><Form Action="index.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="Home" Class="Top_Font01 Top_Input_Submit02"></Form>
-<TD Align="Left" Width=80><Form Action="../TCHI/index.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="繁體中文" Class="Top_Font01 Top_Input_Submit02"></Form>
-<TD Align="Left" Width=80><Form Action="../SCHI/index.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="简体中文" Class="Top_Font01 Top_Input_Submit02"></Form>
-</TR>
-</Table>
-</Center>
-
-<Center>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Class="Top_Width02"><Img Src="../Image/Froch01.jpg" LowSrc="../Image/Froch01_Small.jpg" Alt="The fundamental motivation for all developments:Pursuing the Excellence and Creating the Future">
-</TR>
-</Table>
-</Center>
-
-<Center>
-<Table Border=0 CellSpacing=0 CellPadding=0 Background="../Image/Table01.JPG" Class="Top_Width02">
-<TR VAlign="Top">
-<TD Align="Left" Width=1>
-<TD Align="Left"><Form Action="Company_Profile.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="Company Profile" Class="Top_Font01 Top_Input_Submit01"></Form>
-<TD Align="Left"><Form Action="History.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="Company History" Class="Top_Font01 Top_Input_Submit01"></Form>
-<TD Align="Left"><Form Action="Major_Products.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="Major Products" Class="Top_Font01 Top_Input_Submit01"></Form>
-<TD Align="Left"><Form Action="Quality_Assurance.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="Quality Assurance" Class="Top_Font01 Top_Input_Submit01"></Form>
-<TD Align="Left"><Form Action="Flow_Chart_of_Manufacture.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="Manufacture Flow" Class="Top_Font01 Top_Input_Submit01"></Form>
-<TD Align="Left"><Form Action="Production_Equipment.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="Production Equipment" Class="Top_Font01 Top_Input_Submit01"></Form>
-<TD Align="Left" Width=1>
-</TR>
-</Table>
-</Center>
-<BR>
-
+<BODY TopMargin=0 LeftMargin=0 BGColor="#FFFFFF"><Center><Table Border=0 CellSpacing=0 CellPadding=0><TR VAlign="Top"><TD Align="Left" Width=500><Img Src="../Image/Froch02.jpg"><TD Align="Left" Width=300></TR></Table><Table Border=0 CellSpacing=0 CellPadding=0 Class="Top_Width02"><TR VAlign="Top"><TD Align="Left">&nbsp;<TD Align="Left" Width=80><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit02"><a href="index.html">Home</a></div><TD Align="Left" Width=80><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit02"><a href="../TCHI/index.html">繁體中文</a></div><TD Align="Left" Width=80><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit02"><a href="../SCHI/index.html">简体中文</a></div></TR></Table></Center><Center><Table Border=0 CellSpacing=0 CellPadding=0><TR VAlign="Top"><TD Align="Left" Class="Top_Width02"><Img Src="../Image/Froch01.jpg" LowSrc="../Image/Froch01_Small.jpg" Alt="The fundamental motivation for all developments:Pursuing the Excellence and Creating the Future"></TR></Table></Center><Center><Table Border=0 CellSpacing=0 CellPadding=0 Background="../Image/Table01.JPG" Class="Top_Width02"><TR VAlign="Top"><TD Align="Left" Width=1><TD Align="Left"><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit01"><a href="Company_Profile.html">Company Profile</a></div><TD Align="Left"><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit01"><a href="History.html">Company History</a></div><TD Align="Left"><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit01"><a href="Major_Products.html">Major Products</a></div><TD Align="Left"><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit01"><a href="Quality_Assurance.html">Quality Assurance</a></div><TD Align="Left"><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit01"><a href="Flow_Chart_of_Manufacture.html">Manufacture Flow</a></div><TD Align="Left"><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit01"><a href="Production_Equipment.html">Production Equipment</a></div><TD Align="Left" Width=1></TR></Table></Center><BR>
 <Center>
 <Table Border=0 CellSpacing=0 CellPadding=0 Class="Top_Width02">
 <TR VAlign="Top">
 <TD Align="Left" Width=300>
-<Form Name="Major_Products_ProductForm" Class="Top_Margin01 Top_Border01 Top_Padding01">
-<Input Type="Button" Value=" Stainless Steel Pipe" Id="Major_Products_Product17" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="Major_Products_ShowProduct('Major_Products_Product17')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product17','../Image/Major_Products/ENG/Button03.jpg')" OnMouseOut="Major_Products_SetBGImage('Major_Products_Product17','../Image/Major_Products/ENG/Button01.jpg')">
-<Input Type="Button" Value=" Large Diameter Stainless Steel Pipe" Id="Major_Products_Product15" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="Major_Products_ShowProduct('Major_Products_Product15')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product15','../Image/Major_Products/ENG/Button03.jpg')" OnMouseOut="Major_Products_SetBGImage('Major_Products_Product15','../Image/Major_Products/ENG/Button01.jpg')">
-<Input Type="Button" Value=" Stainless Steel Mechanical Tube" Id="Major_Products_Product18" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="Major_Products_ShowProduct('Major_Products_Product18')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product18','../Image/Major_Products/ENG/Button03.jpg')" OnMouseOut="Major_Products_SetBGImage('Major_Products_Product18','../Image/Major_Products/ENG/Button01.jpg')">
-<Input Type="Button" Value=" Stainless Steel Equal Leg Angle Bar" Id="Major_Products_Product20" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="Major_Products_ShowProduct('Major_Products_Product20')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product20','../Image/Major_Products/ENG/Button03.jpg')" OnMouseOut="Major_Products_SetBGImage('Major_Products_Product20','../Image/Major_Products/ENG/Button01.jpg')">
-<Input Type="Button" Value=" Stainless Steel Tube for Boiler and Heat-Exchanger" Id="Major_Products_Product25" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="Major_Products_ShowProduct('Major_Products_Product25')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product25','../Image/Major_Products/ENG/Button03.jpg')" OnMouseOut="Major_Products_SetBGImage('Major_Products_Product25','../Image/Major_Products/ENG/Button01.jpg')">
-<Input Type="Button" Value=" Stainless Steel Light Gauge Tube for General Service" Id="Major_Products_Product21" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="Major_Products_ShowProduct('Major_Products_Product21')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product21','../Image/Major_Products/ENG/Button03.jpg')" OnMouseOut="Major_Products_SetBGImage('Major_Products_Product21','../Image/Major_Products/ENG/Button01.jpg')">
-<Input Type="Button" Value=" Stainless Steel Square and Rectangular Tube" Id="Major_Products_Product19" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="Major_Products_ShowProduct('Major_Products_Product19')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product19','../Image/Major_Products/ENG/Button03.jpg')" OnMouseOut="Major_Products_SetBGImage('Major_Products_Product19','../Image/Major_Products/ENG/Button01.jpg')">
-<Input Type="Button" Value=" Stainless Steel Sanitary Tube" Id="Major_Products_Product24" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="Major_Products_ShowProduct('Major_Products_Product24')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product24','../Image/Major_Products/ENG/Button03.jpg')" OnMouseOut="Major_Products_SetBGImage('Major_Products_Product24','../Image/Major_Products/ENG/Button01.jpg')">
-<Input Type="Button" Value=" Stainless Steel Inside Polished Pipe" Id="Major_Products_Product23" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="Major_Products_ShowProduct('Major_Products_Product23')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product23','../Image/Major_Products/ENG/Button03.jpg')" OnMouseOut="Major_Products_SetBGImage('Major_Products_Product23','../Image/Major_Products/ENG/Button01.jpg')">
-<Input Type="Button" Value=" Stainless Steel Coated Pipe" Id="Major_Products_Product16" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="Major_Products_ShowProduct('Major_Products_Product16')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product16','../Image/Major_Products/ENG/Button03.jpg')" OnMouseOut="Major_Products_SetBGImage('Major_Products_Product16','../Image/Major_Products/ENG/Button01.jpg')">
-<Input Type="Button" Value=" Stainless Steel Sheet, Plate, and Coil" Id="Major_Products_Product22" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="Major_Products_ShowProduct('Major_Products_Product22')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product22','../Image/Major_Products/ENG/Button03.jpg')" OnMouseOut="Major_Products_SetBGImage('Major_Products_Product22','../Image/Major_Products/ENG/Button01.jpg')">
-</Form>
+<div><a href="Major_Products_Industrial_Stainless_Steel_Pipes.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">Stainless Steel Pipe</a></div>
+<div><a href="Major_Products_Large_Diameter_Stainless_Steel_Pipes.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">Large Diameter Stainless Steel Pipe</a></div>
+<div><a href="Major_Products_Stainless_Steel_Pipes_for_Machinery_Structures.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">Stainless Steel Mechanical Tube</a></div>
+<div><a href="Major_Products_Stainless_Steel_Equal_Angles.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">Stainless Steel Equal Leg Angle Bar</a></div>
+<div><a href="Major_Products_Boiler_and_Heat_Exchanger_Stainless_Steel_Pipes.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">Stainless Steel Tube for Boiler and Heat-Exchanger</a></div>
+<div><a href="Major_Products_General_Purpose_Stainless_Steel_Pipes_Compression_Fitting.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">Stainless Steel Light Gauge Tube for General Service</a></div>
+<div><a href="Major_Products_Stainless_Steel_Square_and_Rectangular_Tubes.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">Stainless Steel Square and Rectangular Tube</a></div>
+<div><a href="Major_Products_Stainless_Steel_Sanitary_Tubes.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">Stainless Steel Sanitary Tube</a></div>
+<div><a href="Major_Products_Stainless_Steel_Inner_Polished_Tubes.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">Stainless Steel Inside Polished Pipe</a></div>
+<div><a href="Major_Products_Stainless_Steel_Coated_Pipes.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">Stainless Steel Coated Pipe</a></div>
+<div><a href="Major_Products_Stainless_Steel_Sheets_and_Coils.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">Stainless Steel Sheet, Plate, and Coil</a></div>
 <TD Align="Left" Width=500>
-
-<div Id="Major_Products_Product17_content" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/ENG/Product17.jpg">
-</TR>
-</Table><BR>
-
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-&#9679; ASTM A778 &#9679; ASTM A312 &#9679; ASTM A358
-</Font><BR>
-<Img Src="../Image/Major_Products/ENG/Product04.jpg?v=5" Width=500><BR>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=80>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-Application:
-</Font>
-<TD Align="Left">
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-Chemical, petro-chemical, pulp & paper, food & beverage, oil & gas refinery, water transport,  sewage, power genertion, etc.
-</Font>
-</TR>
-</Table><BR>
-</div>
-
-<div Id="Major_Products_Product15_content" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/ENG/Product15.jpg">
-</TR>
-</Table><BR>
-
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-&#9679; ASTM A778 &#9679; ASTM A312 &#9679; ASTM A358 &#9679; ASTM A409
-</Font><BR>
-<Img Src="../Image/Major_Products/ENG/Product05-01.jpg?v=5" Width=500><BR>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=80>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-Application:
-</Font>
-<TD Align="Left">
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-Chemical, petro-chemical, pulp & paper, food & beverage, oil & gas refinery, water transport, sewage, power genertion, etc.
-</Font>
-</TR>
-</Table>
-
-<Img Src="../Image/Major_Products/ENG/Product05-02.jpg?v=2" Width=500><BR>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=80>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-Application:
-</Font>
-<TD Align="Left">
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-Chemical, petro-chemical, pulp & paper, food & beverage, oil & gas refinery, water transport, sewage, power genertion, welling, etc.
-</Font>
-</TR>
-</Table>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-We are able to offer the sizes shown in the table above. Other sizes are also available up to request. (up to 84")
-</Font><BR><BR>
-</div>
-
-<div Id="Major_Products_Product18_content" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/ENG/Product18.jpg">
-</TR>
-</Table><BR>
-
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-&#9679; ASTM A554 &#9679; CNS 5802 G3119 &#9679; JIS G3446
-</Font><BR>
-<Img Src="../Image/Major_Products/ENG/Product06.jpg"><BR>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=80>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-Application:
-</Font>
-<TD Align="Left">
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-furniture, auto-parts, motorcycle parts, bicycle, exhaust system, rail, chair, desk, tent, etc.
-</Font>
-</TR>
-</Table><BR>
-</div>
-
-<div Id="Major_Products_Product20_content" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/ENG/Product20.jpg">
-</TR>
-</Table><BR>
-
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-&#9679; CNS 10806 G3218
-</Font><BR>
-<Img Src="../Image/Major_Products/ENG/Product07.jpg"><BR>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=80>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-Application:
-</Font>
-<TD Align="Left">
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-machinery and construction.
-</Font>
-</TR>
-</Table><BR>
-</div>
-
-<div Id="Major_Products_Product25_content" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/ENG/Product25.jpg">
-</TR>
-</Table><BR>
-
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-&#9679; ASTM A249 &#9679; ASTM A269 &#9679; CNS 7383 G3142 &#9679; JIS G3463
-</Font><BR>
-<Img Src="../Image/Major_Products/ENG/Product08.jpg"><BR><BR>
-</div>
-
-<div Id="Major_Products_Product21_content" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/ENG/Product21.jpg">
-</TR>
-</Table><BR>
-
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-&#9679; CNS 13392 G3258 &#9679; JIS G3448
-</Font><BR>
-<Img Src="../Image/Major_Products/ENG/Product09.jpg"><BR>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=80>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-Application:
-</Font>
-<TD Align="Left">
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-pluming.
-</Font>
-</TR>
-</Table><BR>
-</div>
-
-<div Id="Major_Products_Product19_content" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/ENG/Product19.jpg">
-</TR>
-</Table><BR>
-
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-&#9679; ASTM A554 &#9679; CNS 5802 G3119
-</Font><BR>
-<Img Src="../Image/Major_Products/ENG/Product10.jpg"><BR>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=80>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-Application:
-</Font>
-<TD Align="Left">
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-window, decoration, rail, stand, gate, etc.
-</Font>
-</TR>
-</Table><BR>
-</div>
-
-<div Id="Major_Products_Product24_content" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/ENG/Product24.jpg">
-</TR>
-</Table><BR>
-
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-&#9679; ASTM A270
-</Font><BR>
-<Img Src="../Image/Major_Products/ENG/Product11.jpg"><BR>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=80>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-Application:
-</Font>
-<TD Align="Left">
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-dairy product, brewery, food and beverage.
-</Font>
-</TR>
-</Table><BR>
-</div>
-
-<div Id="Major_Products_Product23_content" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/ENG/Product23.jpg">
-</TR>
-</Table><BR>
-</div>
-
-<div Id="Major_Products_Product16_content" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/ENG/Product16.jpg">
-</TR>
-</Table><BR>
-</div>
-
-<div Id="Major_Products_Product22_content" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/ENG/Product22.jpg">
-</TR>
-</Table><BR>
-
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/ENG/Product26.jpg">
-</TR>
-</Table><BR>
-</div>
-
-<div Id="Major_Products_Default_content">
-<Img Src="../Image/Major_Products/ENG/Product01.gif"><BR>
-
-<Table Border=0 CellSpacing=0 CellPadding=0 Width=500 Align="Center">
-<TR VAlign="Top">
-<TD Align="Left" Width=92 Class="Major_Products_TD01"><Div><Img Src="../Image/Arrow01.gif" Align="ABSMiddle"><Font Color="#4F91B1" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">Capacity</Font></Div>
-<TD Align="Left" Class="Major_Products_TD02"><Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">200,000 MT/Year</Font>
-</TR>
-<TR VAlign="Top">
-<TD RowSpan=2 Align="Left" Width=92 Class="Major_Products_TD01"><Div><Img Src="../Image/Arrow01.gif" Align="ABSMiddle"><Font Color="#4F91B1" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">Production<BR>&nbsp&nbsp&nbspRange</Font></Div>
-<TD Align="Left"><Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">1. Outside Diameter 0.25 inch ~ 84 inch</Font>
-</TR>
-<TR VAlign="Top">
-<TD Align="Left" Class="Major_Products_TD02"><Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">2. Wall Thickness 0.5mm ~ 30.0 mm</Font>
-</TR>
-</Table>
-
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">OUR PRODUCTS ARE IN CONFORMITY WITH CNS, JIS AND ASTM STANDARDS.</Font><BR><BR>
-</div>
-
-</TR>
+<Img Src="../Image/Major_Products/ENG/Product01.gif"><BR><Table Border=0 CellSpacing=0 CellPadding=0 Width=500 Align="Center"><TR VAlign="Top"><TD Align="Left" Width=92 Class="Major_Products_TD01"><Div><Img Src="../Image/Arrow01.gif" Align="ABSMiddle"><Font Color="#4F91B1" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">Capacity</Font></Div><TD Align="Left" Class="Major_Products_TD02"><Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">200,000 MT/Year</Font></TR><TR VAlign="Top"><TD RowSpan=2 Align="Left" Width=92 Class="Major_Products_TD01"><Div><Img Src="../Image/Arrow01.gif" Align="ABSMiddle"><Font Color="#4F91B1" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">Production<BR>&nbsp;&nbsp;&nbsp;Range</Font></Div><TD Align="Left"><Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">1. Outside Diameter 0.25 inch ~ 84 inch</Font></TR><TR VAlign="Top"><TD Align="Left" Class="Major_Products_TD02"><Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">2. Wall Thickness 0.5mm ~ 30.0 mm</Font></TR></Table><Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">OUR PRODUCTS ARE IN CONFORMITY WITH CNS, JIS AND ASTM STANDARDS.</Font><BR><BR></TR>
 </Table>
 </Center>
 
 <BR>
 
-<Center>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Center" BGColor="#25316B" Class="Top_Width02">
-<Font Color="#FFFFFF" Class="Top_Font01" Style="Font-Size:12px;">
-Copyright © FROCH ENTERPRISE CO., LTD.
-</Font>
-</TR>
-</Table>
-</Center>
-<BR>
+<Center><Table Border=0 CellSpacing=0 CellPadding=0><TR VAlign="Top"><TD Align="Center" BGColor="#25316B" Class="Top_Width02"><Font Color="#FFFFFF" Class="Top_Font01" Style="Font-Size:12px;">Copyright © FROCH ENTERPRISE CO., LTD.</Font></TR></Table></Center><BR>
 </BODY>
 </html>

@@ -1,16 +1,9 @@
+
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="keywords" content="彰源, 製造, 不銹鋼管, 不銹鋼板, 不銹鋼捲, 鋼板 , 鋼捲, 環保, 台灣">
-<meta name="description" content="彰源企業為不銹鋼管、鋼板、鋼捲製造廠 , 秉持愛惜資源、重視環保理念, 在台灣">
-<meta name="author" content="Hark Tsai">
-<meta name="rating" content="general">
-<meta name="robots" content="all">
-<title>彰源企業股份有限公司 | 不銹鋼管, 不銹鋼板, 不銹鋼捲</title>
-<link rel="shortcut icon" href="../Image/Froch01.ico">
-<link rel="stylesheet" type="text/css" href="Top.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="keywords" content="彰源, 製造, 不銹鋼管, 不銹鋼板, 不銹鋼捲, 鋼板 , 鋼捲, 環保, 台灣"><meta name="description" content="彰源企業為不銹鋼管、鋼板、鋼捲製造廠 , 秉持愛惜資源、重視環保理念, 在台灣"><meta name="author" content="Hark Tsai"><meta name="rating" content="general"><meta name="robots" content="all"><title>彰源企業股份有限公司 | 不銹鋼管, 不銹鋼板, 不銹鋼捲</title><link rel="shortcut icon" href="../Image/Froch01.ico"><link rel="stylesheet" type="text/css" href="Top.css">
 
-<style type="text/css">
+<Style Type="text/css">
 .Major_Products_TD01{
 Border-Top-Width:0px;
 Border-Bottom-Width:1px;
@@ -18,8 +11,10 @@ Border-Left-Width:1px;
 Border-Right-Width:1px;
 Border-Color:RGB(200,200,200);
 Border-Style:Solid;
+
 Background-Color:RGB(245,255,255);
 }
+
 .Major_Products_TD02{
 Border-Top-Width:0px;
 Border-Bottom-Width:1px;
@@ -28,369 +23,79 @@ Border-Right-Width:0px;
 Border-Color:RGB(200,200,200);
 Border-Style:Solid;
 }
+
 .Major_Products_Input_Submit01{
 Width:300px;
 Height:28px;
+
 Font-Size:14px;
 Font-Weight:698;
+
 Text-Align:Left;
+
 Color:#415441;
+
 Background-Image:URL("../Image/Major_Products/TCHI/Button01.jpg");
+
 Border-Width:0px;
-Cursor: Pointer;
+
+Cursor: Pointer; 
 }
 .Major_Products_Input_Submit02{
 Width:300px;
 Height:28px;
+
 Font-Size:14px;
 Font-Weight:698;
+
 Text-Align:Left;
+
 Color:#415441;
+
 Background-Image:URL("../Image/Major_Products/TCHI/Button02.jpg");
+
 Border-Width:0px;
-Cursor: Pointer;
+
+Cursor: Pointer; 
 }
-</style>
+</Style>
 
-<script type="text/javascript">
-var currentProduct = '';
-
-function showProduct(suffix) {
-  var ids = ['Default','17','15','18','20','25','21','19','24','23','16','22'];
-  for (var i = 0; i < ids.length; i++) {
-    var el = document.getElementById('Product' + ids[i]);
-    if (el) el.style.display = 'none';
-  }
-  document.getElementById('Product' + suffix).style.display = '';
-
-  for (var i = 0; i < ids.length; i++) {
-    var btn = document.getElementById('Major_Products_Product' + ids[i]);
-    if (btn) btn.className = 'Top_Font01 Major_Products_Input_Submit01';
-  }
-  document.getElementById('Major_Products_Product' + suffix).className = 'Top_Font01 Major_Products_Input_Submit02';
-
-  currentProduct = suffix;
+<script language="JavaScript" type="text/javascript">
+<!--
+function Major_Products_SetBGImage(name,filename){
+   if(name!=document.Major_Products_ProductForm.Major_Products_ProductID.value)
+   {
+      filename="URL('" + filename + "')";
+	  document.getElementById(name).style.backgroundImage=filename;
+   }
 }
-
-function Major_Products_SetBGImage(name, filename) {
-  var suffix = name.replace('Major_Products_Product', '');
-  if (suffix != currentProduct) {
-    document.getElementById(name).style.backgroundImage = "URL('" + filename + "')";
-  }
-}
-
-function Major_Products_ResetBGImage(name) {
-  var suffix = name.replace('Major_Products_Product', '');
-  if (suffix != currentProduct) {
-    document.getElementById(name).style.backgroundImage = "URL('../Image/Major_Products/TCHI/Button01.jpg')";
-  }
-}
+//-->
 </script>
 </head>
 
-<BODY TopMargin=0 LeftMargin=0 BGColor="#FFFFFF">
-
-<Center>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=500><Img Src="../Image/Froch02.jpg">
-<TD Align="Left" Width=300>
-</TR>
-</Table>
-
-<Table Border=0 CellSpacing=0 CellPadding=0 Class="Top_Width02">
-<TR VAlign="Top">
-<TD Align="Left">&nbsp
-<TD Align="Left" Width=80><Form Action="index.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="首頁" Class="Top_Font01 Top_Input_Submit02"></Form>
-<TD Align="Left" Width=80><Form Action="../SCHI/index.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="简体中文" Class="Top_Font01 Top_Input_Submit02"></Form>
-<TD Align="Left" Width=80><Form Action="../ENG/index.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="English" Class="Top_Font01 Top_Input_Submit02"></Form>
-</TR>
-</Table>
-</Center>
-
-<Center>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Class="Top_Width02"><Img Src="../Image/Froch01.jpg" LowSrc="../Image/Froch01_Small.jpg" Alt="經營理念：追求卓越　開創未來">
-</TR>
-</Table>
-</Center>
-
-<Center>
-<Table Border=0 CellSpacing=0 CellPadding=0 Background="../Image/Table01.JPG" Class="Top_Width02">
-<TR VAlign="Top">
-<TD Align="Left" Width=10>
-<TD Align="Left"><Form Action="Company_Profile.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="公 司 簡 介" Class="Top_Font01 Top_Input_Submit01" Style="Width:81px;"></Form>
-<TD Align="Left"><Form Action="History.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="公 司 沿 革" Class="Top_Font01 Top_Input_Submit01" Style="Width:81px;"></Form>
-<TD Align="Left"><Form Action="Major_Products.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="主 要 產 品" Class="Top_Font01 Top_Input_Submit01" Style="Width:81px;"></Form>
-<TD Align="Left"><Form Action="Quality_Assurance.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="品 質 管 制" Class="Top_Font01 Top_Input_Submit01" Style="Width:81px;"></Form>
-<TD Align="Left"><Form Action="Flow_Chart_of_Manufacture.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="製 造 流 程" Class="Top_Font01 Top_Input_Submit01" Style="Width:81px;"></Form>
-<TD Align="Left"><Form Action="Production_Equipment.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="生 產 設 備" Class="Top_Font01 Top_Input_Submit01" Style="Width:81px;"></Form>
-<TD Align="Left"><Form Action="Corporate_Governance.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="公 司 治 理" Class="Top_Font01 Top_Input_Submit01" Style="Width:81px;"></Form>
-<TD Align="Left"><Form Action="Investor_Service.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="投 資 人 關 係" Class="Top_Font01 Top_Input_Submit01" Style="Width:98px;"></Form>
-<TD Align="Left"><Form Action="Corporate_Social_Responsibility.html" Method="GET" Class="Top_Margin01 Top_Border01 Top_Padding01"><Input Type="Submit" Value="永 續 報 告 書" Class="Top_Font01 Top_Input_Submit01" Style="Width:114px;"></Form>
-<TD Align="Left" Width=11>
-</TR>
-</Table>
-</Center>
-<BR>
-
+<BODY TopMargin=0 LeftMargin=0 BGColor="#FFFFFF"><Center><Table Border=0 CellSpacing=0 CellPadding=0><TR VAlign="Top"><TD Align="Left" Width=500><Img Src="../Image/Froch02.jpg"><TD Align="Left" Width=300></TR></Table><Table Border=0 CellSpacing=0 CellPadding=0 Class="Top_Width02"><TR VAlign="Top"><TD Align="Left">&nbsp;<TD Align="Left" Width=80><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit02"><a href="index.html">首頁</a></div><TD Align="Left" Width=80><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit02"><a href="../SCHI/index.html">简体中文</a></div><TD Align="Left" Width=80><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit02"><a href="../ENG/index.html">English</a></div></TR></Table></Center><Center><Table Border=0 CellSpacing=0 CellPadding=0><TR VAlign="Top"><TD Align="Left" Class="Top_Width02"><Img Src="../Image/Froch01.jpg" LowSrc="../Image/Froch01_Small.jpg" Alt="經營理念：追求卓越　開創未來"></TR></Table></Center><Center><Table Border=0 CellSpacing=0 CellPadding=0 Background="../Image/Table01.JPG" Class="Top_Width02"><TR VAlign="Top"><TD Align="Left" Width=10><TD Align="Left"><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit01"><a href="Company_Profile.html">公 司 簡 介</a></div><TD Align="Left"><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit01"><a href="History.html">公 司 沿 革</a></div><TD Align="Left"><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit01"><a href="Major_Products.html">主 要 產 品</a></div><TD Align="Left"><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit01"><a href="Quality_Assurance.html">品 質 管 制</a></div><TD Align="Left"><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit01"><a href="Flow_Chart_of_Manufacture.html">製 造 流 程</a></div><TD Align="Left"><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit01"><a href="Production_Equipment.html">生 產 設 備</a></div><TD Align="Left"><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit01"><a href="Corporate_Governance.html">公 司 治 理</a></div><TD Align="Left"><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit01"><a href="Investor_Service.html">投 資 人 關 係</a></div><TD Align="Left"><div class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Top_Input_Submit01"><a href="Corporate_Social_Responsibility.html">永 續 報 告 書</a></div><TD Align="Left" Width=11></TR></Table></Center><BR>
 <Center>
 <Table Border=0 CellSpacing=0 CellPadding=0 Class="Top_Width02">
 <TR VAlign="Top">
 <TD Align="Left" Width=300>
-<Input Type="Button" Value=" 工業配管用不銹鋼管" Name="Major_Products_Product17" Id="Major_Products_Product17" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="showProduct('17')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product17','../Image/Major_Products/TCHI/Button03.jpg')" OnMouseOut="Major_Products_ResetBGImage('Major_Products_Product17')">
-<Input Type="Button" Value=" 大口徑配管用不銹鋼管" Name="Major_Products_Product15" Id="Major_Products_Product15" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="showProduct('15')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product15','../Image/Major_Products/TCHI/Button03.jpg')" OnMouseOut="Major_Products_ResetBGImage('Major_Products_Product15')">
-<Input Type="Button" Value=" 機械構造用不銹鋼管" Name="Major_Products_Product18" Id="Major_Products_Product18" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="showProduct('18')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product18','../Image/Major_Products/TCHI/Button03.jpg')" OnMouseOut="Major_Products_ResetBGImage('Major_Products_Product18')">
-<Input Type="Button" Value=" 等邊不銹鋼角鋼" Name="Major_Products_Product20" Id="Major_Products_Product20" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="showProduct('20')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product20','../Image/Major_Products/TCHI/Button03.jpg')" OnMouseOut="Major_Products_ResetBGImage('Major_Products_Product20')">
-<Input Type="Button" Value=" 鍋爐用及熱交換器用不銹鋼管" Name="Major_Products_Product25" Id="Major_Products_Product25" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="showProduct('25')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product25','../Image/Major_Products/TCHI/Button03.jpg')" OnMouseOut="Major_Products_ResetBGImage('Major_Products_Product25')">
-<Input Type="Button" Value=" 一般配管用不銹鋼管(壓接管)" Name="Major_Products_Product21" Id="Major_Products_Product21" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="showProduct('21')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product21','../Image/Major_Products/TCHI/Button03.jpg')" OnMouseOut="Major_Products_ResetBGImage('Major_Products_Product21')">
-<Input Type="Button" Value=" 不銹鋼方管、長方管" Name="Major_Products_Product19" Id="Major_Products_Product19" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="showProduct('19')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product19','../Image/Major_Products/TCHI/Button03.jpg')" OnMouseOut="Major_Products_ResetBGImage('Major_Products_Product19')">
-<Input Type="Button" Value=" 不銹鋼衛生鋼管" Name="Major_Products_Product24" Id="Major_Products_Product24" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="showProduct('24')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product24','../Image/Major_Products/TCHI/Button03.jpg')" OnMouseOut="Major_Products_ResetBGImage('Major_Products_Product24')">
-<Input Type="Button" Value=" 不銹鋼內部拋光鋼管" Name="Major_Products_Product23" Id="Major_Products_Product23" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="showProduct('23')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product23','../Image/Major_Products/TCHI/Button03.jpg')" OnMouseOut="Major_Products_ResetBGImage('Major_Products_Product23')">
-<Input Type="Button" Value=" 不銹鋼被覆鋼管" Name="Major_Products_Product16" Id="Major_Products_Product16" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="showProduct('16')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product16','../Image/Major_Products/TCHI/Button03.jpg')" OnMouseOut="Major_Products_ResetBGImage('Major_Products_Product16')">
-<Input Type="Button" Value=" 不銹鋼板、捲" Name="Major_Products_Product22" Id="Major_Products_Product22" Class="Top_Font01 Major_Products_Input_Submit01" OnClick="showProduct('22')" OnMouseOver="Major_Products_SetBGImage('Major_Products_Product22','../Image/Major_Products/TCHI/Button03.jpg')" OnMouseOut="Major_Products_ResetBGImage('Major_Products_Product22')">
-
+<div><a href="Major_Products_工業配管用不銹鋼管.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">工業配管用不銹鋼管</a></div>
+<div><a href="Major_Products_大口徑配管用不銹鋼管.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">大口徑配管用不銹鋼管</a></div>
+<div><a href="Major_Products_機械構造用不銹鋼管.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">機械構造用不銹鋼管</a></div>
+<div><a href="Major_Products_等邊不銹鋼角鋼.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">等邊不銹鋼角鋼</a></div>
+<div><a href="Major_Products_鍋爐用及熱交換器用不銹鋼管.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">鍋爐用及熱交換器用不銹鋼管</a></div>
+<div><a href="Major_Products_一般配管用不銹鋼管壓接管.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">一般配管用不銹鋼管(壓接管)</a></div>
+<div><a href="Major_Products_不銹鋼方管_長方管.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">不銹鋼方管、長方管</a></div>
+<div><a href="Major_Products_不銹鋼衛生鋼管.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">不銹鋼衛生鋼管</a></div>
+<div><a href="Major_Products_不銹鋼內部拋光鋼管.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">不銹鋼內部拋光鋼管</a></div>
+<div><a href="Major_Products_不銹鋼被覆鋼管.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">不銹鋼被覆鋼管</a></div>
+<div><a href="Major_Products_不銹鋼板_捲.html" class="Top_Margin01 Top_Border01 Top_Padding01 Top_Font01 Major_Products_Input_Submit01">不銹鋼板、捲</a></div>
 <TD Align="Left" Width=500>
-
-<div id="ProductDefault">
-<Img Src="../Image/Major_Products/TCHI/Product01.gif">
-<Table Border=0 CellSpacing=0 CellPadding=0 Width=500 Align="Center">
-<TR VAlign="Top">
-<TD Align="Left" Width=92 Class="Major_Products_TD01"><Div><Img Src="../Image/Arrow01.gif" Align="ABSMiddle"><Font Color="#4F91B1" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">產能</Font></Div>
-<TD Align="Left" Class="Major_Products_TD02"><Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">200,000 噸 / 年</Font>
-</TR>
-<TR VAlign="Top">
-<TD RowSpan=2 Align="Left" Width=92 Class="Major_Products_TD01"><Div><Img Src="../Image/Arrow01.gif" Align="ABSMiddle"><Font Color="#4F91B1" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">製造規格</Font></Div>
-<TD Align="Left"><Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">1. 外徑 0.25 inch ~ 84 inch</Font>
-</TR>
-<TR VAlign="Top">
-<TD Align="Left" Class="Major_Products_TD02"><Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">2. 厚度 0.5mm ~ 30.0 mm</Font>
-</TR>
-</Table>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">本公司產品符合 CNS、JIS、ASTM 等國家規範標準</Font><BR><BR>
-</div>
-
-<div id="Product17" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/TCHI/Product17.jpg">
-</TR>
-</Table><BR>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-● CNS 6331 G3124 ● JIS G3459
-</Font><BR>
-<Img Src="../Image/Major_Products/TCHI/Product04.jpg?v=4" Width=500><BR>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=45>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">用途：</Font>
-<TD Align="Left">
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">石化、造紙、釀酒、瓦斯、蒸汽、自來水、污水處理、下水道工程、發電...等。</Font>
-</TR>
-</Table><BR>
-</div>
-
-<div id="Product15" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/TCHI/Product15.jpg">
-</TR>
-</Table><BR>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-● CNS 13517 G3259 ● JIS G3468
-</Font><BR>
-<Img Src="../Image/Major_Products/TCHI/Product05-01.jpg?v=4" Width=500><BR>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=45>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">用途：</Font>
-<TD Align="Left">
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">石化、造紙、釀酒、瓦斯、蒸汽、自來水、污水處理、下水道工程、發電...等。</Font>
-</TR>
-</Table>
-<Img Src="../Image/Major_Products/TCHI/Product05-02.jpg?v=2" Width=500><BR>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=45>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">用途：</Font>
-<TD Align="Left">
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">石化、造紙、釀酒、瓦斯、蒸汽、自來水、污水處理、下水道工程、發電、鑿井、焚化爐...等。</Font>
-</TR>
-</Table>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">本公司可製造規格如上表，其他規格歡迎訂購。(外徑最高可訂製至84")</Font><BR><BR>
-</div>
-
-<div id="Product18" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/TCHI/Product18.jpg">
-</TR>
-</Table><BR>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-● ASTM A554 ● CNS 5802 G3119 ● JIS G3446
-</Font><BR>
-<Img Src="../Image/Major_Products/TCHI/Product06.jpg"><BR>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=45>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">用途：</Font>
-<TD Align="Left">
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">傢俱、裝潢、汽車、機車、腳踏車、排氣管、欄杆、桌椅、帳棚...等。</Font>
-</TR>
-</Table><BR>
-</div>
-
-<div id="Product20" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/TCHI/Product20.jpg">
-</TR>
-</Table><BR>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-● CNS 10806 G3218
-</Font><BR>
-<Img Src="../Image/Major_Products/TCHI/Product07.jpg"><BR>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=45>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">用途：</Font>
-<TD Align="Left">
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">機械組合、土木建築用、支架鐵架（基地台）、水塔業。</Font>
-</TR>
-</Table><BR>
-</div>
-
-<div id="Product25" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/TCHI/Product25.jpg">
-</TR>
-</Table><BR>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-● ASTM A249 ● ASTM A269 ● CNS 7383 G3142 ● JIS G3463
-</Font><BR>
-<Img Src="../Image/Major_Products/TCHI/Product08.jpg"><BR><BR>
-</div>
-
-<div id="Product21" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/TCHI/Product21.jpg">
-</TR>
-</Table><BR>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-● CNS 13392 G3258 ● JIS G3448
-</Font><BR>
-<Img Src="../Image/Major_Products/TCHI/Product09.jpg"><BR>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=45>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">用途：</Font>
-<TD Align="Left">
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">水電明管配裝用。</Font>
-</TR>
-</Table><BR>
-</div>
-
-<div id="Product19" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/TCHI/Product19.jpg">
-</TR>
-</Table><BR>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-● ASTM A554 ● CNS 5802 G3119
-</Font><BR>
-<Img Src="../Image/Major_Products/TCHI/Product10.jpg"><BR>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=45>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">用途：</Font>
-<TD Align="Left">
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">門窗、裝潢、輸送軌道、置物架、大門...等。</Font>
-</TR>
-</Table><BR>
-</div>
-
-<div id="Product24" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/TCHI/Product24.jpg">
-</TR>
-</Table><BR>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">
-● CNS 6668 G3131 ● JIS G3447
-</Font><BR>
-<Img Src="../Image/Major_Products/TCHI/Product11.jpg"><BR>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Left" Width=45>
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">用途：</Font>
-<TD Align="Left">
-<Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">乳酪業、釀酒業、自來水業、食品業之輸送管。</Font>
-</TR>
-</Table><BR>
-</div>
-
-<div id="Product23" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/TCHI/Product23.jpg">
-</TR>
-</Table><BR>
-</div>
-
-<div id="Product16" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/TCHI/Product16.jpg">
-</TR>
-</Table><BR>
-</div>
-
-<div id="Product22" style="display:none">
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/TCHI/Product22.jpg">
-</TR>
-</Table><BR>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Right" Width=500>
-<Img Src="../Image/Major_Products/TCHI/Product26.jpg">
-</TR>
-</Table><BR>
-</div>
-
-</TR>
+<Img Src="../Image/Major_Products/TCHI/Product01.gif"><Table Border=0 CellSpacing=0 CellPadding=0 Width=500 Align="Center"><TR VAlign="Top"><TD Align="Left" Width=92 Class="Major_Products_TD01"><Div><Img Src="../Image/Arrow01.gif" Align="ABSMiddle"><Font Color="#4F91B1" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">產能</Font></Div><TD Align="Left" Class="Major_Products_TD02"><Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">200,000 噸 / 年</Font></TR><TR VAlign="Top"><TD RowSpan=2 Align="Left" Width=92 Class="Major_Products_TD01"><Div><Img Src="../Image/Arrow01.gif" Align="ABSMiddle"><Font Color="#4F91B1" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">製造規格</Font></Div><TD Align="Left"><Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">1. 外徑 0.25 inch ~ 84 inch</Font></TR><TR VAlign="Top"><TD Align="Left" Class="Major_Products_TD02"><Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">2. 厚度 0.5mm ~ 30.0 mm</Font></TR></Table><Font Color="#010080" Class="Top_Font01" Style="Font-Size:14px;Font-Weight:Bold;">本公司產品符合 CNS、JIS、ASTM 等國家規範標準</Font><BR><BR></TR>
 </Table>
 </Center>
 
 <BR>
 
-<Center>
-<Table Border=0 CellSpacing=0 CellPadding=0>
-<TR VAlign="Top">
-<TD Align="Center" BGColor="#25316B" Class="Top_Width02">
-<Font Color="#FFFFFF" Class="Top_Font01" Style="Font-Size:12px;">
-Copyright &copy; FROCH ENTERPRISE CO., LTD.
-</Font>
-</TR>
-</Table>
-</Center>
-<BR>
-
+<Center><Table Border=0 CellSpacing=0 CellPadding=0><TR VAlign="Top"><TD Align="Center" BGColor="#25316B" Class="Top_Width02"><Font Color="#FFFFFF" Class="Top_Font01" Style="Font-Size:12px;">Copyright © FROCH ENTERPRISE CO., LTD.</Font></TR></Table></Center><BR>
 </BODY>
 </html>

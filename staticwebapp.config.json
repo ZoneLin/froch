@@ -1,29 +1,8 @@
 {
-  "routes": [
-    {
-      "route": "/api/*",
-      "allowedRoles": ["anonymous"]
-    },
-    {
-      "route": "/Survey/Pipe.html",
-      "allowedRoles": ["anonymous"]
-    },
-    {
-      "route": "/Survey/Finish.html",
-      "allowedRoles": ["anonymous"]
-    },
-    {
-      "route": "/Survey/Resubmit.html",
-      "allowedRoles": ["anonymous"]
-    },
-    {
-      "route": "/Survey/Unknow.html",
-      "allowedRoles": ["anonymous"]
-    }
-  ],
+  "routes": [],
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/api/*", "/Image/*", "/Survey/*", "/TCHI/*", "/ENG/*", "/SCHI/*", "/File/*"]
+    "exclude": ["/Image/*", "/TCHI/*", "/ENG/*", "/SCHI/*", "/Corporate_Governance/*"]
   },
   "globalHeaders": {
     "X-Content-Type-Options": "nosniff",

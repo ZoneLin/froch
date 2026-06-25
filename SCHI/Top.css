@@ -2,7 +2,7 @@
 Width:800px;
 }
 
-.Top_Input_Submit01{
+.Top_Input_Submit01, a.Top_Input_Submit01, div.Top_Input_Submit01{display: inline-block; text-align: center; width: 81px;
 Width:100px;
 Height:30px;
 
@@ -18,7 +18,7 @@ Border-Width:0px;
 Cursor: Pointer; 
 }
 
-.Top_Input_Submit02{
+.Top_Input_Submit02, a.Top_Input_Submit02, div.Top_Input_Submit02{display: inline-block; text-align: center;
 Width:80px;
 Height:25px;
 
@@ -54,4 +54,24 @@ Padding-Right:0px;
 
 .Top_Font01{
 Font-Family:"Arial","Helvetica","sans-serif";
+}
+
+/* Override anchor styling inside converted divs */
+div.Top_Input_Submit01 a, div.Top_Input_Submit02 a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    line-height: 30px;
+}
+
+/* Override anchor styling for all converted form submit elements */
+a[class*="Input_Submit"] {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    padding: 0 10px;
+    line-height: 28px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
 }
