@@ -6,7 +6,7 @@
   },
   "globalHeaders": {
     "X-Content-Type-Options": "nosniff",
-    "Content-Security-Policy": "default-src 'self' https://*.froch.com https://*.froch.com.tw; style-src 'self' 'unsafe-inline'; img-src 'self' data:; script-src 'self' 'unsafe-inline'; frame-ancestors https://froch.com https://www.froch.com https://froch.com.tw https://www.froch.com.tw",
+    "Content-Security-Policy": "default-src 'self' https://*.froch.com https://*.froch.com.tw; style-src 'self' 'unsafe-inline'; img-src 'self' data:; script-src 'self' 'unsafe-inline'; frame-ancestors https://froch.com https://www.froch.com https://froch.com.tw https://www.froch.com.tw https://frochattachments.blob.core.windows.net",
     "Referrer-Policy": "strict-origin-when-cross-origin"
   },
   "platform": {
