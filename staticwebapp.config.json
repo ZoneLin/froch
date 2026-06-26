@@ -2,7 +2,7 @@
   "routes": [],
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/Image/*", "/TCHI/*", "/ENG/*", "/SCHI/*", "/Corporate_Governance/*"]
+    "exclude": ["/Image/*", "/Attachment/*", "/TCHI/*", "/ENG/*", "/SCHI/*", "/Corporate_Governance/*"]
   },
   "globalHeaders": {
     "X-Content-Type-Options": "nosniff",
